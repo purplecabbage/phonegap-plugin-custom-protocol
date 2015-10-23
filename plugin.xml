@@ -30,7 +30,9 @@
     <repo>https://github.com/purplecabbage/phonegap-plugin-custom-protocol</repo>
     <issue>https://github.com/purplecabbage/phonegap-plugin-custom-protocol/issues</issue>
 
-    <js-module src="src/www/PGCustomProtocol.js" name="PGCustomProtocol"/>
+    <js-module src="src/www/PGCustomProtocol.js" name="PGCustomProtocol">
+        <clobbers target="PGCustomProtocol"/>
+    </js-module>
     
     <!-- ios -->
     <platform name="ios">
